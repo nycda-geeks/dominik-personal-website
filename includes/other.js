@@ -4,7 +4,7 @@ $(document).ready(function(){
       $(".button-collapse").sideNav();
     });
 
-
+/*
 var options = [
     {selector: '#about', offset: 50, callback: function() {
 
@@ -12,6 +12,7 @@ var options = [
     } }
     ];
   Materialize.scrollFire(options);
+  */
 
 
   

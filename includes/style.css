@@ -15,6 +15,20 @@ body, html
 	height: 0;
 }
 
+.input-field .prefix.active {
+      color: white;
+}
+
+.material-icons {
+      color: white;
+}
+
+
+#contact_email, #contact_message, #contact_name {
+
+	border-bottom: 1px solid #ffffff;
+}
+
 
 .intro
 {

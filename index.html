@@ -3,7 +3,7 @@
 <head>
 	<title>Dominik Bauer</title>
 	<!--Import Google Icon Font-->
-	<!--link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Import materialize.css-->
 	<link type="text/css" rel="stylesheet" href="includes/materialize.min.css"  media="screen,projection"/>
 	<link type="text/css" rel="stylesheet" href="includes/font-awesome.min.css"/>
@@ -19,6 +19,7 @@
 	<script type="text/javascript" src="includes/materialize.min.js"></script>
 	<script type="text/javascript" src="includes/other.js"></script>
 
+	<!--Navigation bar-->
 	<div class="navbar-fixed">
 		<nav class="navbar-trans" role="navigation">
 			<div class="nav-wrapper">
@@ -36,7 +37,9 @@
 			</div>
 		</nav>
 	</div>
-	<div class="intro lighten-2 z-depth-1 parallax-container">
+
+	<!--Intro-->
+	<div id="intro" class="intro lighten-2 z-depth-1 parallax-container">
 		<div class="parallax"><img src="img/laptop2_small.jpg"></div>
 		<h1 class="grey-text text-lighten-5">dominik bauer</h1>
 
@@ -48,7 +51,7 @@
 		</div>
 	</div>
 
-
+	<!--About section-->
 	<div id="about" class="container white">
 		<div class="section">
 			<h5 class="center">about me</h5>
@@ -85,7 +88,7 @@
 		</div>
 	</div>
 
-
+	<!--Projects section-->
 	<div id="projects" class="container about">
 		<h5 class="center">projects</h5>
 
@@ -132,6 +135,7 @@
 		</div>
 	</div>
 
+	<!--Contact section-->
 
 <!--
 <div class="container contact">
@@ -176,19 +180,44 @@
 </div>
 </div>
 -->
+
+<!--Footer-->
 <footer class="page-footer cyan">
 	<div class="container row">
-		<div class="col s12 m6 l6">
-			<h5 class="white-text">dominik-bauer.de</h5>
-		</div>
-		<div class="col offset-s4">
-			<ul>
-				<li><a href="#" class="grey-text text-lighten-4 right">About me</a></li>
-				<li><a href="#" class="grey-text text-lighten-4 right">Projects</a></li>
-				<li><a href="#" class="grey-text text-lighten-4 right">Contact</a></li>
-			</ul>
-		</div>
-	</div>
+
+		<div class="col s6 m6 l6 row z-depth-1 cyan lighten-1">
+			<form class="col">
+				<div class="row">
+					<div class="input-field col s6">
+						<i class="material-icons prefix">account_circle</i>
+						<input id="contact_name" type="text" class="validate">
+						<label class="white-text" for="icon_prefix">Name</label>
+					</div>
+					<div class="input-field col s6">
+						<i class="material-icons prefix">email</i>
+						<input id="contact_email" type="email" class="validate">
+						<label class="white-text" for="email">Email</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<i class="material-icons prefix">mode_edit</i>
+						<textarea id="contact_message" class="materialize-textarea"></textarea>
+						<label class="white-text" for="icon_prefix2">Message</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+					<button class="btn white grey-text waves-effect" type="submit"><i class="fa fa-email fa-rw"></i> send</button>
+						
+					</div>
+				</div>
+			</form>
+		</div>	
+
+</div>
+</div>
+
 	<div class="footer-copyright">
 		<div class="container">
 			Made with Materialize and Mate tea
