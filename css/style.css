@@ -7,6 +7,15 @@ body, html
       height: 100vh;
     }
 
+.navbar-trans {
+	    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.navbar-fixed {
+	height: 0;
+}
+
+
 .intro
 {
 	height: 100vh;
