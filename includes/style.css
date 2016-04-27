@@ -4,9 +4,9 @@ body, html
 }
 
 
-.parallax-container {
-      height: 100vh;
-    }
+#pic {
+	height: 40vh;
+}
 
 .navbar-trans {
 	    background-color: rgba(0,0,0,0.5) !important;
@@ -81,85 +81,6 @@ body, html
 	margin-bottom: 15px;
 }
 
-.portfolio .col
-{
-	margin-bottom: 24px;
-}
-
-.portfolio h5
-{
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 15px;
-}
-
-.portfolio h6
-{
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 45px;
-}
-
-.portfolio hr
-{
-	width: 40px;
-	margin-bottom: 45px;
-}
-
-.portfolio .portfolio-holder
-{
-	clear: both;
-	text-align: center;
-}
-
-.portfolio img
-{
-	width: 33%;
-	display: inline-block;
-	float: left;
-}
-
-.contact .col
-{
-	margin-bottom: 24px;
-}
-
-.contact h5
-{
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 15px;
-}
-
-.contact h6
-{
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 45px;
-}
-
-.contact hr
-{
-	width: 40px;
-	margin-bottom: 45px;
-}
-
-.contact .contact-holder
-{
-	padding-left: 40px;
-	text-align: left;
-}
-
-.contact .contact-holder h6
-{
-	margin-bottom: 15px;
-	text-align: left;
-}
-
-.contact .contact-holder p
-{
-	margin-bottom: 30px;
-}
 
 footer
 {
